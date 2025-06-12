@@ -7,7 +7,7 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-     permissions:
+    permissions:
       contents: write # Questo concede i permessi di scrittura ai contenuti del repository
       pages: write    # Se stai usando GitHub Pages per deployment
       id-token: write # Se stai usando OIDC per deploy su servizi cloud esterni
