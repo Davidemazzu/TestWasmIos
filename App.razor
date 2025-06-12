@@ -1,0 +1,11 @@
+﻿<Router AppAssembly="@typeof(App).Assembly">
+    <Found Context="routeData">
+        <div style="position:fixed;top:10px;left:10px;color:lime;z-index:9999">
+            ✅ App.razor loaded: @routeData.PageType?.Name
+        </div>
+        <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
+    </Found>
+    <NotFound>
+        <p>Page not found</p>
+    </NotFound>
+</Router>
