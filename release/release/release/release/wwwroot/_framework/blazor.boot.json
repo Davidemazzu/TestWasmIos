@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "TestBlazorIos",
   "resources": {
-    "hash": "sha256-UABZt9sWG8QbC6/Bzfwqbg7wpszfJ/cBEuFUhYJpyGI=",
+    "hash": "sha256-CGkd52z6165qpzCW2dIIn5n0kVVfE7KEocyhofXv0O4=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-A7IcvUQVerU8JvOiTlWHQG3NN+fpJxW9DX8EA5e/kTY="
     },
@@ -49,7 +49,7 @@
       "System.Text.Encodings.Web.wasm": "sha256-e/JDHCLRDdllil3662Gefde17/mCl3cwzMY2Yb3gfu0=",
       "System.Text.Json.wasm": "sha256-2W/KifHtV0SPdj4gKH61mgTAITBgTgQzAEpvDxDKKUQ=",
       "System.Text.RegularExpressions.wasm": "sha256-9UWxHQk+uZ1mgq8eZxuahtQbRZvJrc/6HxznAnmMYI0=",
-      "TestBlazorIos.wasm": "sha256-knBAUop/xMlwPHyZGEA6u2zIhrkLuaprF8pr8TsV1Jw="
+      "TestBlazorIos.wasm": "sha256-g4vUlBPERrJ99mVju9ndf2BxfFAO0cyvmWVWXm8XNWI="
     }
   },
   "cacheBootResources": true,
