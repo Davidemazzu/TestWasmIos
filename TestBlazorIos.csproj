@@ -1,10 +1,37 @@
 <Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-  </PropertyGroup>
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<BlazorWebAssemblyLoadAllGlobalizationData>false</BlazorWebAssemblyLoadAllGlobalizationData>
+		<ServiceWorkerAssetsManifest>service-worker-assets.js</ServiceWorkerAssetsManifest>
+		<BlazorWebAssemblyEnableLinking>false</BlazorWebAssemblyEnableLinking>
+		<DisableScopedCssBundling>true</DisableScopedCssBundling>
+		<IsTrimmable>false</IsTrimmable>
+		<PublishTrimmed>false</PublishTrimmed>
+		<SuppressAOT>true</SuppressAOT>
+		<RunAOTCompilation>false</RunAOTCompilation>
+
+		<BlazorWebAssemblyLoadAllGlobalizationData>false</BlazorWebAssemblyLoadAllGlobalizationData>
+		<PublishReadyToRun>false</PublishReadyToRun>
+		<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+		<WasmBuildAppBundle>true</WasmBuildAppBundle>
+		<ServiceWorkerAssetsManifest>service-worker-assets.js</ServiceWorkerAssetsManifest>
+		<AssetManifestFilename>service-worker-assets.js</AssetManifestFilename>
+		<DisableScopedCssBundling>true</DisableScopedCssBundling>
+		<NoWarn>$(NoWarn);NU1701</NoWarn>
+		<GenerateResourceUsePreserializedResources>true</GenerateResourceUsePreserializedResources>
+		<RunAOTCompilation>false</RunAOTCompilation>
+		<PublishTrimmed>false</PublishTrimmed>
+		<IsTrimmable>false</IsTrimmable>
+		<SuppressAOT>true</SuppressAOT>
+		<BlazorWasmBuildAppBundle>true</BlazorWasmBuildAppBundle>
+
+		<BlazorCacheBootResources>false</BlazorCacheBootResources>
+		<ServiceWorkerCache>false</ServiceWorkerCache>
+	</PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.17" />
